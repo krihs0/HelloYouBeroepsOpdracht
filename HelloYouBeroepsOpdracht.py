@@ -9,6 +9,18 @@ def einde():
     print("")
     replay()
 
+def uitleg():
+    print("Welkom bij mijn beroeps opdracht")
+    print("")
+    print("Je naam is wahhab en je woont in Irak")
+    print("Je bent een jezidi wat niet heel erg gewaardeerd wordt in Irak")
+    print("Je woont met je ouders en broertje")
+    answeruitleg = input("Type A om te beginnen!")
+    if answeruitleg == "A":
+        a1()
+    else:
+        a1()
+
 def a1():
     cls()
     print("De oorlog in Irak breekt uit en het is niet meer veilig om naar school te gaan.")
@@ -148,5 +160,5 @@ def replay():
         exit()
 
 while True:
-    a1()
+    uitleg()
     
